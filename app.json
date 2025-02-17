@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Veho",
-    "slug": "Veho",
+    "slug": "veho",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5a52a09a-03ac-4d9d-a3cd-75d4e737914f"
+      }
+    },
+    "owner": "pennyowo"
   }
 }
